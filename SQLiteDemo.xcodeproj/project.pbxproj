@@ -18,6 +18,8 @@
 		A458AF3D171AF2F3005EA7C5 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A458AF3C171AF2F3005EA7C5 /* Default-568h@2x.png */; };
 		A458AF40171AF2F3005EA7C5 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A458AF3F171AF2F3005EA7C5 /* ViewController.m */; };
 		A458AF43171AF2F3005EA7C5 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A458AF41171AF2F3005EA7C5 /* ViewController.xib */; };
+		A458AF4A171AF30D005EA7C5 /* libsqlite3.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A458AF49171AF30D005EA7C5 /* libsqlite3.0.dylib */; };
+		A458AF4C171AF31F005EA7C5 /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = A458AF4B171AF31F005EA7C5 /* libsqlite3.dylib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +39,8 @@
 		A458AF3E171AF2F3005EA7C5 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A458AF3F171AF2F3005EA7C5 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A458AF42171AF2F3005EA7C5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A458AF49171AF30D005EA7C5 /* libsqlite3.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.0.dylib; path = usr/lib/libsqlite3.0.dylib; sourceTree = SDKROOT; };
+		A458AF4B171AF31F005EA7C5 /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +48,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A458AF4C171AF31F005EA7C5 /* libsqlite3.dylib in Frameworks */,
+				A458AF4A171AF30D005EA7C5 /* libsqlite3.0.dylib in Frameworks */,
 				A458AF27171AF2F3005EA7C5 /* UIKit.framework in Frameworks */,
 				A458AF29171AF2F3005EA7C5 /* Foundation.framework in Frameworks */,
 				A458AF2B171AF2F3005EA7C5 /* CoreGraphics.framework in Frameworks */,
@@ -96,6 +102,8 @@
 		A458AF2D171AF2F3005EA7C5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				A458AF49171AF30D005EA7C5 /* libsqlite3.0.dylib */,
+				A458AF4B171AF31F005EA7C5 /* libsqlite3.dylib */,
 				A458AF2E171AF2F3005EA7C5 /* SQLiteDemo-Info.plist */,
 				A458AF2F171AF2F3005EA7C5 /* InfoPlist.strings */,
 				A458AF32171AF2F3005EA7C5 /* main.m */,
